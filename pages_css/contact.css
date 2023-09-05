@@ -1,0 +1,161 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    /*background-image: url(/images/uiisa-image1.jpeg)*/
+    background-color: #18453B ;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;   
+    min-height: 80px; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar-links {
+    height: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover {
+    color: black;
+}
+
+.navbar-image {
+    height: 60px;
+}
+
+.footer-forms {
+    text-decoration: none;
+    background-color: #fb8b24;
+    color: white;
+    padding: 10px;
+}
+
+.content {
+    padding: 10px;
+    background: linear-gradient(180deg, rgba(92,187,86,1) 0%, rgba(255,255,255,1) 50%, rgba(255,147,0,1) 100%);
+    background-attachment: fixed;
+}
+
+.line {
+    height: 10px;
+    background-color: black;
+}
+
+.socials-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.socials-1 i {
+    font-size: 200px;
+}
+
+.socials-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.social-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-2 img{
+    height: 200px;
+}
+
+.social-2 i {
+    font-size: 200px;
+}
+
+.social-2 a {
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-2 a:hover {
+    color: greenyellow;
+}
+
+.socials-3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.socials-3 i {
+    font-size: 200px;
+}
+
+.social-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-3 a {
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-3 a:hover {
+    color: greenyellow;
+}
+
+footer {
+    min-height: 80px; 
+    background-image: url(/images/uiisa-blur.png);
+}
+
+@media (max-width: 980px) {
+    .navbar-links {
+        width: 100%;
+        height: 100px;
+    }
+    .socials-1 i {
+        font-size: 100px;
+    }
+    .social-2 i {
+        font-size: 100px;
+    }
+    .socials-3 i {
+        font-size: 100px;
+    }
+}
