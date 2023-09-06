@@ -49,7 +49,7 @@ a:hover {
 }
 
 .content {
-    background: linear-gradient(180deg, rgba(92,187,86,1) 0%, rgba(255,255,255,1) 50%, rgba(255,147,0,1) 100%);
+    background: linear-gradient(180deg, rgba(255,147,0,1) 0%, rgba(255,255,255,1) 50%, rgba(92,187,86,1) 100%);
     background-attachment: fixed;
     padding: 20px;
     display: flex;

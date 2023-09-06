@@ -49,7 +49,7 @@ a:hover {
 }
 
 .content {
-    background: linear-gradient(180deg, rgba(92,187,86,1) 0%, rgba(255,255,255,1) 50%, rgba(255,147,0,1) 100%);
+    background: linear-gradient(180deg, rgba(255,147,0,1) 0%, rgba(255,255,255,1) 50%, rgba(92,187,86,1) 100%);
     background-attachment: fixed;
 }
 
@@ -120,6 +120,22 @@ a:hover {
     width: 400px;   
 }
 
+.gmm {
+    height: 500px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.upcoming-events {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
 footer {
     background-color: #18453B ;
     color: white;
@@ -168,6 +184,10 @@ footer {
     .event-pic img {
         height: 270px;
         width: 360px;   
+    }
+    .gmm {
+        height: 360px;
+        width: 270px;
     }
 }
 

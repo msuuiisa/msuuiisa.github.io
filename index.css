@@ -68,11 +68,12 @@ a:hover {
 .content1-text h1 {
     font-size: 100px;
     font-weight: bolder;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: none;
 }
 
 .content1-text p {
     font-weight: bold;
+    text-shadow: none;
 }
 
 .slider{
@@ -101,7 +102,7 @@ a:hover {
 }
 
 .content2 {
-    background: linear-gradient(180deg, rgba(92,187,86,1) 0%, rgba(255,255,255,1) 50%, rgba(255,147,0,1) 100%);
+    background: linear-gradient(180deg, rgba(255,147,0,1) 0%, rgba(255,255,255,1) 50%, rgba(92,187,86,1) 100%);
     background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +126,6 @@ a:hover {
 
 .content2-part h1 {
     align-self: flex-start;
-    font-style: italic;
 }
 
 .content2-part p {
