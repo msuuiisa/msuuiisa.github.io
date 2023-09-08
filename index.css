@@ -101,8 +101,11 @@ a:hover {
     height:100%;
 }
 
-.content2 {
+.main-content {
     background: linear-gradient(180deg, rgba(255,147,0,1) 0%, rgba(255,255,255,1) 50%, rgba(92,187,86,1) 100%);
+}
+
+.content2 {
     background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
@@ -130,6 +133,28 @@ a:hover {
 
 .content2-part p {
     font-size: 20px;
+}
+
+.sponsors {
+    display: block;
+}
+
+.sponsors h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor img {
+    height: 125px;
+    width: 200px;
+    margin: 5px;
 }
 
 footer {
